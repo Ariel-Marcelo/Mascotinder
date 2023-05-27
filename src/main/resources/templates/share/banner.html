@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+    <nav th:fragment="banner" class=" navbar navbar-light" style="background-color: #FF5733; position: absolute; top: 0; left: 0; right: 0;">
+        <a class="navbar-brand mx-4 h1" style="color: #FFF;" href="LoginController">Volver al Inicio de Sesion </a>
+    </nav>
 </body>
 </html>
